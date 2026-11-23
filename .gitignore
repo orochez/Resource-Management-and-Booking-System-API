@@ -1,0 +1,105 @@
+
+# ==========================================
+# RESOURCE MANAGEMENT AND BOOKING SYSTEM
+# Django REST Framework + PostgreSQL
+# ==========================================
+
+# ------------------------------------------
+# 1. Environment Variables and Secrets
+# ------------------------------------------
+.env
+.env.*
+!.env.example
+*.env
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# ------------------------------------------
+# 2. Python Virtual Environment
+# ------------------------------------------
+venv/
+.venv/
+env/
+ENV/
+
+# ------------------------------------------
+# 3. Python Cache and Compiled Files
+# ------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ------------------------------------------
+# 4. PostgreSQL Database Files and Backups
+# ------------------------------------------
+*.sql
+*.sql.gz
+*.dump
+*.backup
+*.bak
+*.pgdump
+pgdata/
+postgres_data/
+postgresql_data/
+
+# PostgreSQL temporary files
+*.pid
+*.log
+
+# ------------------------------------------
+# 5. Django Development Files
+# ------------------------------------------
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Keep Django migrations tracked in Git
+# Do not ignore migrations/
+
+# ------------------------------------------
+# 6. Testing and Coverage
+# ------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+test-results/
+
+# ------------------------------------------
+# 7. IDE and Editor Files
+# ------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ------------------------------------------
+# 8. Operating System Files
+# ------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------
+# 9. Build and Distribution Files
+# ------------------------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ------------------------------------------
+# 10. Temporary Files
+# ------------------------------------------
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
